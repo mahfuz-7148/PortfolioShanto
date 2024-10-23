@@ -14,103 +14,107 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     />
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   </head>
   <body class="bg-dark">
-    <nav class="py-2">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center h-16">
-          <div class="flex-shrink-0 flex items-center">
-            <span class="text-white text-2xl font-bold"
-              >Shanto <span class="text-primary">.</span></span
-            >
-          </div>
-          <div class="hidden sm:block ml-auto">
-            <div class="ml-10 flex items-baseline space-x-4">
-              <a
-                href="#"
-                class="text-white hover:underline px-3 py-2 text-sm font-medium"
-                >Home</a
-              >
-              <a
-                href="#"
-                class="text-white hover:underline px-3 py-2 text-sm font-medium"
-                >Services</a
-              >
-              <a
-                href="#"
-                class="text-white hover:underline px-3 py-2 text-sm font-medium"
-                >Work</a
-              >
-              <a
-                href="#"
-                class="text-white hover:underline px-3 py-2 text-sm font-medium"
-                >About me</a
-              >
-              <a
-                href="#"
-                class="text-white border border-primary px-4 rounded-none py-3 hover:bg-primary text-sm font-medium"
-                >Contact</a
+    <header class="">
+      <nav class="py-2">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between items-center h-16">
+            <div class="flex-shrink-0 flex items-center">
+              <span class="text-white text-2xl font-bold"
+                >Shanto <span class="text-primary">.</span></span
               >
             </div>
-          </div>
-
-          <div class="sm:hidden flex items-center">
-            <button
-              id="mobile-menu-btn"
-              type="button"
-              class="text-white hover:text-light-gray focus:outline-none focus:text-light-gray"
-              aria-label="toggle menu"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
+            <div class="hidden sm:block ml-auto">
+              <div class="ml-10 flex items-baseline space-x-4">
+                <a
+                  href="#home"
+                  class="text-white hover:underline px-3 py-2 text-sm font-medium"
+                  >Home</a
+                >
+                <a
+                  href="#services"
+                  class="text-white hover:underline px-3 py-2 text-sm font-medium"
+                  >Services</a
+                >
+                <a
+                  href="#work"
+                  class="text-white hover:underline px-3 py-2 text-sm font-medium"
+                  >Work</a
+                >
+                <a
+                  href="#about"
+                  class="text-white hover:underline px-3 py-2 text-sm font-medium"
+                  >About me</a
+                >
+                <a
+                  href="#contact"
+                  class="text-white border border-primary px-4 rounded-none py-3 hover:bg-primary text-sm font-medium"
+                  >Contact</a
+                >
+              </div>
+            </div>
+  
+            <div class="sm:hidden flex items-center">
+              <button
+                id="mobile-menu-btn"
+                type="button"
+                class="text-white hover:text-light-gray focus:outline-none focus:text-light-gray"
+                aria-label="toggle menu"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                />
-              </svg>
-            </button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div id="mobile-menu" class="hidden sm:hidden">
-        <a
-          href="#"
-          class="text-white hover:underline block px-3 py-2 text-base font-medium"
-          >Home</a
-        >
-        <a
-          href="#"
-          class="text-white hover:underline block px-3 py-2 text-base font-medium"
-          >Services</a
-        >
-        <a
-          href="#"
-          class="text-white hover:underline block px-3 py-2 text-base font-medium"
-          >Work</a
-        >
-        <a
-          href="#"
-          class="text-white hover:underline block px-3 py-2 text-base font-medium"
-          >About me</a
-        >
-        <div class="px-2">
+        <div id="mobile-menu" class="hidden sm:hidden">
           <a
-            href="#"
-            class="text-white border border-primary block px-3 py-2 rounded-none text-base font-medium hover:bg-primary focus:bg-primary mt-4"
-            >Contact</a
+            href="#home"
+            class="text-white hover:underline block px-3 py-2 text-base font-medium"
+            >Home</a
           >
+          <a
+            href="#services"
+            class="text-white hover:underline block px-3 py-2 text-base font-medium"
+            >Services</a
+          >
+          <a
+            href="#work"
+            class="text-white hover:underline block px-3 py-2 text-base font-medium"
+            >Work</a
+          >
+          <a
+            href="#about"
+            class="text-white hover:underline block px-3 py-2 text-base font-medium"
+            >About me</a
+          >
+          <div class="px-2">
+            <a
+              href="#contact"
+              class="text-white border border-primary block px-3 py-2 rounded-none text-base font-medium hover:bg-primary focus:bg-primary mt-4"
+              >Contact</a
+            >
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
-    <section class="py-28">
+    <section id="home" class="py-28">
       <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h4
           class="text-2xl font-bold text-primary lg:leading-[94px] lg:text-[38px]"
@@ -123,10 +127,6 @@
         </p>
         <div class="mt-14">
           <div class="mt-6 flex items-center gap-3">
-            <a
-              href="#"
-              class="btnPrimary bg-primary text-white rounded-none py-3 px-6 text-lg font-medium mr-5"
-              >Email me</a
             >
             <a href="#" class="text-gray font-bold flex text-lg items-center">
               <svg
@@ -143,15 +143,15 @@
                   d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
                 />
               </svg>
-              <span class="ml-3 hover:underline">Download CV</span>
+                <a href="./MahfuzurRahmanShantoResume.pdf" download="Resume" class="p-2 rounded-xl hover:underline bg-primary text-black font-extrabold">Download CV</a>
             </a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="services">
-      <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="services" class="services">
+      <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
         <div class="block md:flex items-start justify-between">
           <h2
             class="text-white text-3xl lg:text-5xl font-bold mb-2 w-full md:w-1/2 lg:w-3/5"
@@ -240,7 +240,7 @@
       </div>
     </section>
 
-    <section class="mt-28 py-28 bg-light-dark">
+    <section id="work" class="mt-28 py-28 bg-light-dark">
       <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="block md:flex items-center justify-between">
           <div>
@@ -381,17 +381,18 @@
       </div>
     </section>
 
-    <section class="testimonials py-28">
+    <section id="about" class="testimonials py-28">
       <div class="container max-w-xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-center">
           <hr class="w-14 border-t-2 border-primary mr-4">
-          <h6 class="text-primary font-bold text-xl mr-4">Testimonials</h6>
+          <h6 class="text-primary font-bold text-xl mr-4 cursor-pointer">Testimonials</h6>
 
         </div>
-        <h2 class="text-white text-3xl lg:text-5xl font-bold mb-2 mt-4 mx-auto">My clients</h2>
+        <h2 class="text-white text-3xl lg:text-5xl font-bold mb-2 mt-4 mx-auto cursor-pointer">My clients</h2>
         <div class="owl-carousel">
           <div class="item">
-            <p class="text-primary mt-20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi eaque ad modi. Fuga velit impedit dolores quis veniam corrupti voluptatem, deserunt delectus eaque vitae expedita tempore consectetur, iste dignissimos ipsa.</p>
+            <p class="text-primary mt-20">I had the pleasure of working and he demonstrated exceptional technical expertise, solving complex problems efficiently while maintaining clear communication throughout the entire project.
+            </p>
             <div class="flex items-center justify-center gap-5 mt-9">
               <img src="./monalisa.png" alt="" class="rounded-full">
               <div>
@@ -426,15 +427,15 @@
     <div class="owl-dots dots-container"></div>
     </section>
 
-    <section class="py-10 bg-deep-gray">
+    <section id="contact" class="contact py-10 bg-deep-gray">
       <div class="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="block md:flex items-center justify-between">
          <div>
-          <h4 class="text-white text-3xl lg:text-[38px] font-bold mb-2">Have any project in mind ?</h4>
-          <p class="text-gray mt-4 font-semibold">Feel free to contact me</p>
+          <h4 class="text-white text-3xl lg:text-[38px] font-bold mb-2 cursor-pointer">Have any project in mind ?</h4>
+          <p class="text-gray mt-4 font-semibold cursor-pointer">Feel free to contact me</p>
          </div>
          <div class="btnPrimary mt-8 md:mt-0">
-          <a href="#" class="bg-primary text-white rounded-none py-3 px-6 text-lg font-medium">Contact me</a>
+          <a href="#" class="bg-primary text-white rounded-none py-3 px-6 text-lg font-medium cursor-pointer">Contact me</a>
          </div>
         </div>
 
@@ -445,23 +446,23 @@
     <footer class="pt-8 pb-6 bg-deep-dark">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="sm:flex justify-between items-start">
-          <span class="text-white text-[26px] font-bold">Shanto <span class="text-primary">.</span></span>
+          <span class="text-white text-[26px] font-bold cursor-pointer">Shanto <span class="text-primary cursor-pointer">.</span></span>
           <div class="w-full mt-10 md:mt-0 space-y-5 md:w-96 justify-between md:space-y-0 md:flex">
             <div class="info">
-              <h6 class="text-xl text-white font-semibold">Information</h6>
+              <h6 class="text-xl text-white font-semibold cursor-pointer">Information</h6>
               <ul class="text-gray space-y-2">
-                <li class="hover:underline mt-2">+88015645651557</li>
-                <li class="hover:underline">fdsfgds@gmail.com</li>
-                <li class="hover:underline">Sylhet, Bangladesh</li>
+                <li class="hover:underline mt-2 cursor-pointer">+8801641218084</li>
+                <li class="hover:underline cursor-pointer">mahfuz5846@gmail.com</li>
+                <li class="hover:underline cursor-pointer">Sylhet, Bangladesh</li>
 
               </ul>
             </div>
             <div class="social">
-              <h6 class="text-xl text-white font-semibold">Social Media</h6>
+              <h6 class="text-xl text-white font-semibold cursor-pointer">Social Media</h6>
               <ul class="text-gray space-y-2">
-                <li class="hover:underline mt-2">LinkedIn</li>
-                <li class="hover:underline">Twitter</li>
-                <li class="hover:underline">FaceBook</li>
+                <li class="hover:underline mt-2 cursor-pointer text-3xl"><i class='bx bxl-linkedin-square' style='color:#ffffff' ></i></li>
+                <li class="hover:underline cursor-pointer text-3xl"><i class='bx bxl-github' style='color:#ffffff' ></i></li>
+                <li class="hover:underline cursor-pointer text-3xl"><i class='bx bxl-facebook'></i></li>
 
               </ul>
             </div>
@@ -470,8 +471,8 @@
         </div>
         <hr class="h-[2px] w-full bg-light-dark mt-16">
         <div class="flex mt-5 items-start text-white justify-between">
-          <small>Design and Develop by <span class="text-primary ml-1">Shanto</span></small>
-          <small>Copyright &copy; 2024</small>
+          <small class="cursor-pointer">Design and Develop by <span class="text-primary ml-1 cursor-pointer">Shanto</span></small>
+          <small class="cursor-pointer">Copyright &copy; 2024</small>
         </div>
       </div>
 
